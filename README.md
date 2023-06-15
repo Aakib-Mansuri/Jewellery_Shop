@@ -3,7 +3,7 @@ A Complete Web Application Online Jewellery Shop (Tanishq Clone)
 Key Feature:
 
 	Login System:
-		Login or Sign-Up with compelete validation.
+		Login or Sign-Up with complete validation.
 
 	User Side:
 		Access Home Page with or without login.
@@ -18,6 +18,5 @@ Key Feature:
 		Item\Category Page total item view, edit or delete.
 		Item\Category Page Add item.
 		User details Page display all users and their details.
-		Queries Page diplay all query and contac details.
-		Order Page display all orders and details. 
-		
+		Queries Page display all query and contact details.
+		Order Page display all orders and details.		
