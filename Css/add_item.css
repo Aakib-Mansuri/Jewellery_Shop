@@ -1,0 +1,108 @@
+ .body
+ {
+   background-color: #fff; 
+   min-height: 92.99vh;
+   display: flex;
+   justify-content: center;
+   padding-top: 100px;
+ }
+ 
+ .body .bodycontent
+ {
+    width: 40%;
+    font-size: larger;
+    margin-bottom: 20px;
+ }
+ 
+ .bodycontent  form h4
+ {
+   border-bottom: 1.5px solid #832729;
+   color: #832729;
+   text-align: center;
+   margin-bottom: 10px;
+ }
+ 
+ .bodycontent form
+ {
+    background:url('../Images/Admin\ Home\ Page/Dash\ Background.jpg');
+    color: #495057;
+    border: 1.5px solid #832729;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    line-height: 55px;
+    padding-bottom: 10px;
+ }
+
+ .bodycontent form div
+ {
+   margin-left: 20px;
+ }
+
+.input input 
+ {
+    height: 25px;
+    width: 200px;
+    padding-left: 10px;
+    border: 1px solid;
+ }
+
+ .input select
+ {
+    height: 25px;
+    width: 135px;
+    padding-left: 10px;
+ }
+
+ .itemsize input
+ {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+ }
+ 
+ .button
+ {
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 90px;
+ }
+
+ .bodycontent form #submit, #reset
+ {
+    width: 100px;
+    height: 30px;
+    margin-right: 80px;
+ }
+
+ .bodycontent form #submit
+ {
+    background-color: brown;
+    color: #fff;
+    border: 0.01em solid brown;
+    border-radius: 5px;
+ }
+
+ .bodycontent form #reset
+ {
+    background-color: #fff;
+    border: 0.01em solid brown;
+    border-radius: 5px;
+    color: brown;
+    background-color: #fff;
+ }
+ 
+ .bodycontent form #submit:hover
+ {
+    color: #fff;
+    background-color:  #832729;
+    border-color:  #832729;
+ }
+
+ .bodycontent form #reset:hover
+ {
+    border: 1.5px solid #832729;
+    background-color: #fff;
+    color: #832729;
+ }

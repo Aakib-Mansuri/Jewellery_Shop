@@ -1,0 +1,67 @@
+ .body
+ {
+   background-color: #fff; 
+   min-height: 92.99vh;
+   padding: 30px 100px;
+   padding-top: 100px;
+ }
+
+ .body .bodycontent
+ {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    grid-row-gap: 50px;
+ }
+
+ .card
+ {
+    border: 1px solid rgba(131, 39, 41, 0.1);
+ }
+
+ .card .card-img-top
+ {
+    border-bottom: 1px solid rgba(131, 39, 41, 0.1);
+ }
+
+ .btn-primary,.btn-secondary
+ {
+    width: 80px;
+    height: 35px;
+    padding-top: 5px;
+ }
+ 
+
+ .btn-secondary
+ {
+    background-color: brown;
+    color: #fff;
+    border: 0.01em solid brown;
+    border-radius: 5px;
+    margin-left: 10px;
+ }
+
+ .btn-primary
+ {
+    background-color: #fff;
+    border: 0.01em solid   brown;
+    border-radius: 5px;
+    color: brown;
+    background-color: #fff;
+ }
+
+ 
+ .btn-primary:hover
+ {
+    border: 1.5px solid #832729;
+    background-color: #fff;
+    color: #832729;
+ }
+
+ .btn-secondary:hover
+ {
+    color: #fff;
+    background-color:  #832729;
+    border: 1.5px solid #832729;
+ }

@@ -1,0 +1,39 @@
+.body
+{
+    padding-top: 70px;
+}
+.cart-page{
+    width: 100%;
+    height: auto;
+    min-height: 81.90vh;
+    background-color: #fff;
+}
+.cart-page h1{
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    margin-left: 125px;
+    width: 80%;
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    color: #832729;
+}
+
+.cart-details{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.total-order{
+    width: 50%;
+    height: auto;
+}
+
+.empty-cart{
+width: 60%;
+height: auto;
+margin: auto;
+margin-top: 40px;
+}

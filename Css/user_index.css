@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito Sans,sans-serif;
+}
+
+.bodycontent
+{
+   padding-top: 90px;
+}
+
+.slider
+{
+    margin-bottom: 50px;
+}
+
+.container h2
+{
+    color: #832729;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.container p
+{
+    font-size: 18px;
+}
+
+hr
+{
+    margin-bottom: 5px;
+    color: #832729;
+}
+
+.container .category
+{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   padding-left: 80px;
+   padding-right: 50px;
+   margin-bottom: 60px;
+}
+
+.card
+{
+    margin-top: 30px;
+}
+
+.category .card-body
+{
+    text-align: center;
+}
+
+.category a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.category a #ExRight
+{
+    width: 15px;
+}
+
+.category .card-body h5
+{
+    color: #832729;
+}
+
+.video_slider
+{
+    padding-left: 30px;
+    margin-bottom: 70px;
+}
+
+video
+{
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 26px;
+  width: 1020px
+}
+
+.guides
+{
+    /* border: 2px solid; */
+    width: 90%;
+    margin-left: 60px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#guide1 , #guide2 
+{
+    border: 1px solid #832729;
+    border-radius: 10px;
+    color: #832729;
+    width: 49%;
+    height: 170px;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: larger;
+}
+
+#guide1
+{
+    background: url('../Images/User\ Index\ Page/Guide1.jpg');
+}
+
+#guide2
+{
+    background: url('../Images/User\ Index\ Page/Guide2.jpg');
+}
+
+.guides a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#guide1 a #ExRight , #guide2 a #ExRight
+{
+    width: 15px;
+}
+
+.query
+{
+    /* border: 2px solid; */
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.query form
+{
+    width: 70%;
+}
+
+.query form input
+{
+   border: none;
+   border-bottom: 1px solid;
+   border-radius: 0;
+   margin-top: 5px;
+}
+
+.query form textarea
+{
+    border: 1px solid;
+}
+
+.query form label
+{
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.query form #submit
+{
+   background-color: #832729;
+   color: #fff;
+   border: 0.01em solid #832729;
+   border-radius: 5px;
+}
+
+.query form #reset
+{
+   background-color: #fff;
+   border: 0.01em solid brown;
+   border-radius: 5px;
+   color: brown;
+   background-color: #fff;
+   margin-left: 10px;
+}
+
+.query form #submit:hover
+{
+   color: #fff;
+   background-color:  brown;
+   border-color:  brown;
+}
+
+.query form #reset:hover
+{
+   border: 1.5px solid #832729;
+   background-color: #fff;
+   color: #832729;
+}

@@ -1,0 +1,141 @@
+ nav
+ {
+     background-color: #f2e9e9;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     font-family: Nunito Sans,sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     position:fixed;
+     top: 0;
+     z-index: 1;
+ }
+
+ .navcontainer
+ {
+     width: 95%;
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+ }
+
+ #navleft
+ {
+     width: 18%;
+     height: 70px;
+     display: flex;
+     justify-content: center;
+     padding-top: 8px;
+ }
+
+ #navmiddle
+ {
+     width: 50%;
+     height: 70px;
+     display: flex;
+     justify-content: center;
+     padding-top: 15px;
+ }
+
+ 
+ .search
+ {
+     width: 100%;
+     height: 40px;
+     background-color: #fff;
+     border-radius: 5px;
+ }
+
+ #navsearchform
+ {
+     display: flex;
+ }
+
+ #navsearch
+ {
+     width: 90%;
+     height: 40px;
+     border: none;
+     background: none;
+     padding-left: 15px;
+     color: #000;
+ }
+
+ #navsearchsubmit
+ {
+     width: 10%;
+     height: 40px;
+     border: none;
+     background: none;
+ }
+
+ #navright
+ {
+     width: 32%;
+     height: 75px;
+     display: flex;
+     justify-content: center;
+     padding-top: 12px;
+ }
+
+ #navright div
+ {
+     width: 27%;
+     display: flex;
+     justify-content: center;
+     line-height: 25px;
+ }
+
+ #navright div a
+ {
+     text-decoration: none;
+     color: #832729b5;
+ }
+
+ #navright div :hover  #navp
+ {
+    border-bottom: 2px solid;
+ }
+
+ #navright div :hover 
+ {
+     color: #832729;
+ }
+
+ #navright div #list
+ {
+     display: none;
+ }
+
+ #navright div :hover #list 
+ {
+     display: block;
+     position: absolute;
+     background-color: #f2e9e9;
+     margin-left: -50px;
+     width: inherit;
+     font-size: larger;
+     border: 1px solid;
+     border-radius: 5px;
+ }
+
+#list ul  
+ {
+     padding: 10px;
+     list-style: none;
+     overflow: hidden;
+ }
+
+ #list ul li 
+ {
+     width: 150px;
+     height: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ } 
+ 
+ #list ul li h4
+ {
+    border-bottom: 1px solid;
+ }

@@ -1,0 +1,22 @@
+.card .card-body a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.card .btn-primary
+{
+   width: 250px;
+   font-size: large;
+   font-weight: 600;
+   padding: 5px;
+   height: 45px;
+   border-radius: 5px;
+}
+
+.card .btn-primary:hover
+{
+    background-color: #832729;
+    color: #ffff;
+}
+

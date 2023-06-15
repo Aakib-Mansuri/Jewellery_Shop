@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito Sans,sans-serif!important;
+}
+
+body
+{
+    background-color: #f2f2f2;
+}
+.logo
+{
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right
+{
+    width: 15vw;
+    height: 75vh;
+}
+
+.left img , .right img
+{
+  height: 100%;
+  width: 100%;
+}
+
+.left
+{
+  border: 1.6px solid #fff;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.middle
+{
+    width: 30vw;
+    height: 75vh;
+    padding-top: 20px;
+    background-color: rgba(var(--d87,255,255,255),1);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+ .formheader h1 
+{
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    font-size: x-large;
+    color: #832729;
+}
+
+
+.adminloginform
+{
+    margin: 15px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    height: 230px;
+    padding: 0px 20px;
+    font-size: larger;
+}
+
+.Username , .Password, .RePassword 
+{
+    margin-top: 20px;
+    height: 70px;
+}
+
+.adminloginform input 
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: small;
+    padding-left: 7px;
+}
+
+#error
+{
+    visibility:hidden;
+    color:red;
+    font-size:small;
+}
+
+ .adminloginform #submit 
+{
+    border: 1px solid;
+    border-radius: 7px;
+    margin-top: 30px;
+    height: 35px;
+    background-color: #832729;
+    color: white;
+    font-size: medium;
+}
+
+ .formfooter
+{
+    height: 70px;
+    width: 82%;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #832729;
+    text-align: center;
+    line-height: 30px;
+}
+
+.formfooter h4 a
+{
+   text-decoration: none;
+   color: #832729;
+}
+

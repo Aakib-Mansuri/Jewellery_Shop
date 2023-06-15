@@ -1,0 +1,51 @@
+.left, .middle, .right
+{
+    height: 95vh;
+}
+
+.middle
+{
+    width: 35%;
+}
+
+.left , .right
+{
+    width: 17%;
+}
+
+.middle .formbody
+{
+    height: 400px;
+}
+
+.middle .formfooter
+{
+    font-size: larger;
+    margin-top: 5px;
+}
+.input
+{
+    margin-top: 10px;
+    height: 50px;
+}
+
+#Password
+{
+   margin-top: 25px;
+}
+
+.input #submit
+{
+    margin-top: 50px;
+}
+
+#p
+{
+    font-size: x-small;
+    margin-bottom: 5px;
+}
+
+.middle input
+{
+    font-size: medium;
+}
